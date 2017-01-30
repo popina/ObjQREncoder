@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.author             = { "" => "florion@popina.com" }
 
   s.platform     = :ios, '6.0'
-  s.requires_arc = true
+  s.requires_arc = false
 
   s.source       = { :git => "https://github.com/popina/ObjQREncoder.git", :branch => "master" }
 
