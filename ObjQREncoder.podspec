@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/popina/ObjQREncoder.git", :branch => "master" }
 
 
-  s.source_files = 'src', 'src/**/*.{h,m}'
+  s.source_files = 'src', 'src/Classes/*.{h,m}', 'src/Classes/QREncoder/*.{h,m}'
 
 end
